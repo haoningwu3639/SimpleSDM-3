@@ -1,0 +1,12 @@
+pretrained_model_path: "./ckpt/"
+logdir: "./runs"
+validation_sample_logger:
+    num_inference_steps: 28
+    guidance_scale: 7
+gradient_accumulation_steps: 1
+train_steps: 2000
+validation_steps: 10
+checkpointing_steps: 500
+seed: 6666
+mixed_precision: 'fp16'
+learning_rate: 1e-5
