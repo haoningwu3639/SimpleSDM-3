@@ -55,7 +55,7 @@ CUDA_VISIBLE_DEVICES=0 python inference.py --prompt "A cat is running in the rai
 ```
 
 ## TODO
-- [] Optimize the computing overhead and GPU memory usage (gradient checkpointing)
+- [ ] Optimize the computing overhead and GPU memory usage (gradient checkpointing)
 
 
 ## Acknowledgements
