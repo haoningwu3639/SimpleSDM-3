@@ -7,7 +7,7 @@ The main purpose is to make it easier for generative model researchers to do DIY
 </div>
 
 ## Limitations
-- Please note that at fp16 precision, the inference of this model requires approximately 20G of GPU memory. Training only all add_q, add_k, and add_v requires about 29G of GPU memory, and training all parameters requires about 37G of GPU memory.
+- Please note that at fp16 precision, the inference of this model requires approximately 20G of GPU memory. Training only all add_q, add_k, and add_v layers requires about 29G of GPU memory, and training all parameters requires about 37G of GPU memory.
 
 ## Prepartion
 - You should download the diffusers version checkpoints of SDM-3, from [SDM-3-diffusers](https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers), including scheduler, text_encoder(s), tokenizer(s), transformer, and vae. Then put it in the ckpt folder.
