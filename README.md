@@ -54,9 +54,5 @@ CUDA_VISIBLE_DEVICES=0,1,2 accelerate launch --multi_gpu train.py
 CUDA_VISIBLE_DEVICES=0 python inference.py --prompt "A cat is running in the rain."
 ```
 
-## TODO
-- [ ] Optimize the computing overhead and GPU memory usage (gradient checkpointing)
-
-
 ## Acknowledgements
-Many thanks to the checkpoint from [SDM-3](https://huggingface.co/stabilityai/stable-diffusion-3-medium/) and code bases from [diffusers](https://github.com/huggingface/diffusers/) and [SimpleSDM](https://raw.githubusercontent.com/haoningwu3639/SimpleSDM/).
+Many thanks to the checkpoint from [SDM-3](https://huggingface.co/stabilityai/stable-diffusion-3-medium/) and code bases from [diffusers](https://github.com/huggingface/diffusers/) and [SimpleSDM](https://github.com/haoningwu3639/SimpleSDM/).
