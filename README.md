@@ -31,7 +31,7 @@ huggingface-cli download --resume-download stabilityai/stable-diffusion-3-medium
 - diffusers == 0.29.0
 - accelerate == 0.31.0
 - transformers == 4.41.2
-- bitsandbytes==0.43.1
+- bitsandbytes == 0.43.1
 
 A suitable [conda](https://conda.io/) environment named `sdm3` can be created
 and activated with:
