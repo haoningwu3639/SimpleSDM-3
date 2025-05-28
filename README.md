@@ -11,14 +11,14 @@ The main purpose is to make it easier for generative model researchers to do DIY
 
 ## Prepartion
 - You should download the diffusers version checkpoints of SDM-3, from [SDM-3-diffusers](https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers), including scheduler, text_encoder(s), tokenizer(s), transformer, and vae. Then put it in the ckpt folder.
-- You also can download the model in python script (Note: You should login with your huggingface token first.):
+- You can also download the model in Python script (Note: You should login with your HuggingFace token first.):
 
 ```
 from huggingface_hub import hf_hub_download
 hf_hub_download(repo_id="stabilityai/stable-diffusion-3-medium-diffusers", local_dir="./ckpt")
 ```
 
-- If you cannot access to Huggingface, you can use [hf-mirror](https://hf-mirror.com/) to download models.
+- If you cannot access Huggingface, you can use [hf-mirror](https://hf-mirror.com/) to download models.
 
 ```
 export HF_ENDPOINT=https://hf-mirror.com
